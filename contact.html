@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav_bar.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo_joey.png" alt="logo">
+    
+        <nav>
+            <ul class="nav_links">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="#"> Guides</a> 
+                    <ul>
+                        <li> <a href="the_anatomy.html"> The Anatomy</a> </li>
+                        <li> <a href="color.html"> Coloring your creations</a> </li>
+                        <li> <a href="tips.html"> Tips</a> </li>
+    
+                    </ul>
+                </li>
+                <li> <a href="about.html"> About</a> </li>
+            </ul>
+        </nav>
+    <a class="cta" href="contact.html"> <button>Contact</button> </a>
+    <script src="java_Script.js"></script>
+    </header>
+
+    <div class="form">
+        <h1>Contact</h1>
+        <div id="error_Message"></div>
+        <form id="form" onsubmit="return validation()" >
+            <div class="input_Box">
+                <input type="text" placeholder="name" id="name">
+            </div>
+            <div class="input_Box">
+                <input type="text" placeholder="subject" id="subject">
+            </div>
+            <div class="input_Box">
+                <input type="text" placeholder="email" id="email">
+            </div>
+            <div class="input_Box">
+                <textarea type="text" placeholder="message" id="message"></textarea>
+            </div>
+            <div class="contact_Button">
+                <input type="submit">
+
+            </div>
+
+
+
+        </form>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

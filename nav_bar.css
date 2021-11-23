@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+;
+}
+
+nav{
+    display: flex;
+    position: relative;
+    z-index:1; 
+}
+/*Navigation Bar*/
+li, a, button {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  rgb(36, 36, 36);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+.cta{
+    z-index:1; 
+}
+/*.header{
+    flex-direction: column;
+}
+*/
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: darkcyan;
+}
+
+button{
+margin-left: 20px;
+padding: 9px 25px;
+background-color: rgb(153, 130, 165);
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+
+}
+button:hover {
+    color: rgb(44, 187, 163);
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+
+}
+nav ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 21px 14px;
+    text-decoration: none;
+
+
+}
+
+nav ul li ul  {
+    display: none;
+    position: absolute;
+    
+    transition: all 0.4s ease;
+    padding: 0px;
+    border: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+   
+
+}
+
+
+nav ul li ul li  {
+    width: 210px;
+
+}
+
+nav ul li ul li a  {
+    padding: 12px 14px;
+    background-color: rgb(202, 201, 201);
+
+}
+
+nav ul li ul li a:hover  {
+   
+    background-color: rgb(29, 29, 29);
+
+}
+
+
+/* Index*/
+
+
+
+/* Guides*/
+
+.guides {
+   font-size: 45px;
+   text-align: left;
+   transform: translateY(50px);
+   border: none;
+   background: none;
+   margin: 0;
+   color: rgb(40, 41, 40);
+   position: absolute;
+   padding-left: 50px;
+
+
+}
+
+.guides2{
+    font-size: 45px;
+    text-align: right;
+    transform: translate(1000px,50px);
+    border: none;
+    background: none;
+    margin: 0;
+    color: rgb(40, 41, 40);
+    position: absolute;
+    padding-right: 50px;
+}
+
+.description{
+
+    transform: translateY(-200px);
+    padding-left: 100px;
+    font-size: 20px;
+    
+    
+}
+.description2{
+
+    transform: translate(1000px,-200px);
+    padding-left: 100px;
+    font-size: 20px;
+    
+    
+}
+.learn{
+    transform: translate(75px,-180px) ;
+    background-color: rgb(153, 130, 165);
+
+    
+}
+.learn2{
+    transform: translate(1250px,-180px) ;
+    background-color: rgb(153, 130, 165);
+
+    
+}
+/*image*/
+.anatomy{
+    float: right;
+    
+    width: 100%; 
+    
+  
+
+}
+
+p{
+    /*transform: translateY(180px);*/
+    
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(166, 166, 167);
+    background-color: transparent;
+    
+}
+
+
+.parent_Container{
+    margin: auto;
+
+}
+.container1{
+    border: 0px;
+    padding: 0px;
+   
+   
+    background: none;
+ 
+}
+
+
+/* sketching tips*/
+.tipsH1
+{
+    padding: 10px;
+}
+
+.tips{
+    padding: 30px;
+}
+
+.anatomy_h{
+    color: rgb(43, 42, 42);
+    text-align: center;
+    background-size: initial;
+    font-family: 'Quicksand', sans-serif;
+    background-color: transparent;
+    font-size: 50px;
+    
+}
+
+.anatomy_Container{
+    padding: 60px;
+    display: flex;
+}
+
+.index_Image{
+    float: right;
+}
+
+.index_Text{
+    float: left;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.anatomy_Text{
+    float: right;
+    font-size: 20px;
+    background-color: rgb(238, 235, 235);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20vw;
+    color: rgb(43, 39, 43);
+    
+    
+}
+.anatomy_Text p{
+    color: rgb(49, 49, 49);
+
+}
+
+.index_Text{
+    font-size: 20px;
+    background-color: rgb(92, 92, 92);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 500px;
+    margin-top: 50px;
+}
+
+.coloring_Text1{
+    float: right;
+    font-size: 20px;
+    background-color: rgb(238, 235, 235);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20vw;
+    color: rgb(43, 39, 43);
+    transform: translateY(100px);
+
+
+}
+.coloring_Text1 p{
+    color: rgb(49, 49, 49);
+
+}
+
+.anatomy_Text2{
+    float: right;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-right: 300px;
+}
+.anatomy_Text3{
+    float: right;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-right: 300px;
+}
+
+.color_Container{
+    padding: 60px;
+
+
+}
+
+.index_Container{
+    padding: 60px;
+   flex-direction: column;
+   display: flex;
+    background-image: url(Photos/water_splash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.anatomy_Photo{
+    width: 100%;
+    height: auto;
+}
+
+
+/* Form styling*/
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: rgb(192, 154, 189);
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px;
+}
+
+.form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.form .input_Box{
+    margin-bottom: 10px;
+
+
+}
+.form .input_Box input[type="text"],
+.form textarea{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+
+}
+.form textarea{
+    height: 80px;
+    resize: none;
+}
+
+.form .contact_Button input[type="submit"]{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(38, 163, 172);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.form #error_Message{
+    margin-top: 20px;
+    padding: 0px;
+    background: rgb(236, 62, 43);
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+/*footer*/
+.footer{
+    text-align: center;
+    margin: 30px;
+}
+
+.tips_Title{
+    color: rgb(43, 42, 42);
+    text-align: center;
+    background-size: initial;
+    font-family: 'Quicksand', sans-serif;
+    background-color: transparent;
+    font-size: 50px;
+
+}
+
+.tips_Text p{
+    font-size: 20px;
+    background-color: rgb(238, 235, 235);
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(43, 39, 43);
+
+
+}
